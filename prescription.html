@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Prescription - TeleMed</title>
+    <link rel="stylesheet" href="prescription.css">
+</head>
+<body>
+    <section class="digital-prescription-section">
+        <div class="container">
+            <h1>Generate Digital Prescription</h1>
+            <div class="prescription-content">
+                <!-- Prescription Form -->
+                <div class="prescription-form">
+                    <h2>Enter Patient Information</h2>
+                    <form action="#">
+                        <label for="patient-name">Patient Name</label>
+                        <input type="text" id="patient-name" name="patient-name" placeholder="Enter patient's full name" required>
+
+                        <label for="patient-age">Age</label>
+                        <input type="number" id="patient-age" name="patient-age" placeholder="Enter patient's age" required>
+
+                        <label for="patient-gender">Gender</label>
+                        <select id="patient-gender" name="patient-gender" required>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+
+                        <label for="diagnosis">Diagnosis</label>
+                        <textarea id="diagnosis" name="diagnosis" placeholder="Enter the patient's diagnosis" rows="4" required></textarea>
+
+                        <label for="medications">Medications Prescribed</label>
+                        <textarea id="medications" name="medications" placeholder="Enter prescribed medications" rows="4" required></textarea>
+
+                        <label for="additional-info">Additional Notes</label>
+                        <textarea id="additional-info" name="additional-info" placeholder="Enter any additional information or notes" rows="4"></textarea>
+
+                        <button type="submit">Generate Prescription</button>
+                    </form>
+                </div>
+
+                <!-- Prescription Information -->
+                <div class="prescription-info">
+                    <h2>Prescription Details</h2>
+                    <p>Once you fill out the form and generate the prescription, you can share the digital copy with the patient via email or downloadable PDF.</p>
+                    <ol>
+                        <li>Enter the patient's personal details including name, age, and gender.</li>
+                        <li>Describe the diagnosis and provide the necessary prescribed medications.</li>
+                        <li>Add any additional notes or instructions for the patient.</li>
+                        <li>Click "Generate Prescription" to finalize and share the prescription.</li>
+                    </ol>
+                    <p>The prescription will be securely stored in the system, and patients will receive a digital copy for their records.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

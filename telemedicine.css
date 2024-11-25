@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #E0F7FA; /* Light blue background */
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #0288D1; /* Blue */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header .logo {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Navbar */
+.navbar {
+    background: #03A9F4; /* Sky Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+.section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0288D1;
+}
+
+/* Services */
+.services-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.services-list li {
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+    color: #333;
+}
+
+.services-list img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+}
+
+/* Doctors */
+.doctor-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.doctor {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+}
+
+.doctor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+/* Appointment Form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+   
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+}
+
+form button {
+    background: #0288D1;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0277BD; /* Darker Blue */
+   
+}
+
+/* Footer */
+.footer {
+    background: #0288D1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+

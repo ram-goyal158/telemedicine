@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #E0F7FA; /* Light blue background */
+    color: #333;
+}
+
+/* Consultation Section */
+.consultation-section {
+    padding: 3rem 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #0288D1;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.consultation-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.consultation-form {
+    flex: 1 1 45%;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-form h2 {
+    color: #0288D1;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.consultation-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.consultation-form input,
+.consultation-form select,
+.consultation-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.consultation-form button {
+    background: #0288D1;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.consultation-form button:hover {
+    background: #0277BD; /* Darker blue on hover */
+}
+
+/* Consultation Info */
+.consultation-info {
+    flex: 1 1 45%;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-info h2 {
+    color: #0288D1;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.consultation-info p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.consultation-info ol {
+    padding-left: 2rem;
+}
+
+.consultation-info ol li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.consultation-info ol li::before {
+    content: "✔ ";
+    color: #0288D1;
+}

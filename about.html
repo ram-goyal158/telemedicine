@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow-up Services - TeleMed</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <section class="follow-up-section">
+        <div class="container">
+            <h1>Follow-up Services</h1>
+            <div class="follow-up-content">
+                <!-- Follow-up Form -->
+                <div class="follow-up-form">
+                    <h2>Book Your Follow-up Appointment</h2>
+                    <form action="#">
+                        <label for="patient-name">Patient Name</label>
+                        <input type="text" id="patient-name" name="patient-name" placeholder="Enter patient's full name" required>
+
+                        <label for="appointment-id">Appointment ID</label>
+                        <input type="text" id="appointment-id" name="appointment-id" placeholder="Enter your previous appointment ID" required>
+
+                        <label for="follow-up-date">Preferred Follow-up Date</label>
+                        <input type="date" id="follow-up-date" name="follow-up-date" required>
+
+                        <label for="follow-up-time">Preferred Follow-up Time</label>
+                        <input type="time" id="follow-up-time" name="follow-up-time" required>
+
+                        <label for="health-update">Health Update (Optional)</label>
+                        <textarea id="health-update" name="health-update" placeholder="Share any health changes or updates" rows="4"></textarea>
+
+                        <button type="submit">Schedule Follow-up</button>
+                    </form>
+                </div>
+
+                <!-- Follow-up Information -->
+                <div class="follow-up-info">
+                    <h2>How Follow-up Works</h2>
+                    <p>Follow-up appointments are essential for monitoring your health after an initial consultation. Here's how the process works:</p>
+                    <ol>
+                        <li>Fill out the form with your personal details, appointment ID, and health updates.</li>
+                        <li>Choose a preferred date and time for your follow-up visit.</li>
+                        <li>Submit the form to confirm your follow-up appointment.</li>
+                    </ol>
+                    <p>Once submitted, you'll receive a confirmation email with the details of your next appointment.</p>
+                    <h3>Track Your Health Progress</h3>
+                    <p>In your follow-up consultation, doctors will review your health updates and previous appointment notes to monitor your progress and suggest further treatment if needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

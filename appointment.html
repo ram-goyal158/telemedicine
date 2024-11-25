@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - TeleMed</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <section class="appointment-section">
+        <div class="container">
+            <h1>Book Your Appointment</h1>
+            <div class="appointment-content">
+                <!-- Appointment Form -->
+                <div class="appointment-form">
+                    <h2>Fill out the form to schedule your appointment</h2>
+                    <form action="#">
+                        <!-- Personal Information -->
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                        <!-- Doctor Selection -->
+                        <label for="doctor">Choose a Doctor</label>
+                        <select id="doctor" name="doctor" required>
+                            <option value="Dr. Jane Doe">Dr. Jane Doe - General Medicine</option>
+                            <option value="Dr. John Smith">Dr. John Smith - Pediatrics</option>
+                            <option value="Dr. Emily White">Dr. Emily White - Dermatology</option>
+                        </select>
+
+                        <!-- Date and Time Selection -->
+                        <label for="appointment-date">Preferred Appointment Date</label>
+                        <input type="date" id="appointment-date" name="appointment-date" required>
+
+                        <label for="appointment-time">Preferred Time</label>
+                        <input type="time" id="appointment-time" name="appointment-time" required>
+
+                        <!-- Additional Message -->
+                        <label for="message">Additional Information (optional)</label>
+                        <textarea id="message" name="message" placeholder="Enter any additional information" rows="4"></textarea>
+
+                        <button type="submit">Book Appointment</button>
+                    </form>
+                </div>
+
+                <!-- Appointment Information -->
+                <div class="appointment-info">
+                    <h2>How to Book an Appointment</h2>
+                    <p>Booking your appointment online is easy. Follow these simple steps:</p>
+                    <ol>
+                        <li>Select your preferred doctor from the dropdown.</li>
+                        <li>Choose a date and time for your appointment.</li>
+                        <li>Fill out your personal details and any additional information.</li>
+                        <li>Click on the "Book Appointment" button to confirm.</li>
+                    </ol>
+                    <p>Once booked, you will receive a confirmation email with the details of your appointment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
